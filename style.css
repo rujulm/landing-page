@@ -1,0 +1,25 @@
+body {
+    background-color: #1F2937;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    color: white;
+    gap: 8px;
+}
+
+h4{
+    margin-top: 0;
+}
