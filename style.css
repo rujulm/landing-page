@@ -76,6 +76,10 @@ button {
     flex-shrink: 0;
 }
 
+.container1 button {
+    border: none;
+}
+
 .container2{
     background-color: white;
     padding: 30px 100px 80px 100px;
