@@ -1,13 +1,12 @@
 body {
     background-color: #1F2937;
     padding: 0 100px;
+    font-family: 'Roboto', sans-serif; 
 }
 
 .header{
     display: flex;
     justify-content: space-between;
-    color: white;
-    font-family: Roboto, Arial, sans-serif;
 }
 
 ul {
@@ -15,12 +14,59 @@ ul {
     padding: 0;
     margin: 0;
     display: flex;
-    color: white;
+    color: #E5E7EB;
     gap: 16px;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .logo {
     margin-top: 0;
-    font-weight: bold;
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+}
+
+.container1{
+    display: flex;
+    padding: 80px 0;
+    gap: 20px;
+}
+
+.box1_1 {
+    flex: 1;
+}
+.main1 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.box1_2,
+.text1 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.box1_2 {
+    background-color: grey;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1_1 button {
+    padding: 5px 25px;
+    color: white;
+    background-color: #3882F6;
+    margin-top: 10px;
+    border-radius: 7px;
 }
