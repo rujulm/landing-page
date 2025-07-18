@@ -108,5 +108,19 @@ ul {
     text-align: center;
 }
 
+.container3 {
+    background-color: #E5E7EB;
+    padding: 90px 130px 60px 130px;
+}
 
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
 
+.author {
+    text-align: right;
+    font-weight: bold;
+}
