@@ -1,7 +1,6 @@
 body {
     background-color: #1F2937;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 0 100px;
 }
 
 .header{
@@ -17,9 +16,11 @@ ul {
     margin: 0;
     display: flex;
     color: white;
-    gap: 8px;
+    gap: 16px;
+    font-size: 12px;
 }
 
-h4{
+.logo {
     margin-top: 0;
+    font-weight: bold;
 }
