@@ -7,8 +7,7 @@ body {
 .header{
     display: flex;
     padding: 10px 100px;
-    justify-content: space-between;
-    
+    justify-content: space-between;  
 }
 
 ul {
@@ -66,12 +65,13 @@ ul {
     align-items: center;
 }
 
-.box1_1 button {
+button {
     padding: 5px 25px;
+    border-radius: 7px;
     color: white;
     background-color: #3882F6;
     margin-top: 10px;
-    border-radius: 7px;
+    flex-shrink: 0;
 }
 
 .container2{
@@ -123,4 +123,27 @@ ul {
 .author {
     text-align: right;
     font-weight: bold;
+}
+
+.container4 {
+    padding: 50px 100px;
+    background-color: white;
+}
+
+.box4 {
+    display: flex;
+    padding: 30px 50px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    justify-content: space-between;
+}
+
+.main4 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.container4 button {
+    border: 1px solid white;
 }
